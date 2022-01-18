@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+#toolbar, .main-wrapper {
+    /* border: 2px solid; */
+    /* padding: 20px; */
+}
+
+.main-wrapper {
+    height: calc(100vh - 90px);
+    display: flex;
+}
+
+#toolbar {
+    height: 90px;
+    background-color: #282828;
+    color: white;
+}
+
+.sidebar-menu {
+    /* border: 5px solid red; */
+    flex-basis: 230px;
+    flex-shrink: 0;
+    background-color: black;
+}
+
+.main-content {
+    /* border: 5px solid green; */
+    flex-grow: 1;
+    background-color: #141922;
+    overflow-y: scroll;
+    position: relative;
+    padding-top: 120px;
+}
+
+.upgrade-banner {
+    min-height: 90px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}

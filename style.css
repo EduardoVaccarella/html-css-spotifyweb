@@ -42,6 +42,7 @@ img {
     overflow-y: scroll;
     position: relative;
     padding-top: 120px;
+    z-index: -1;
 }
 
 .upgrade-banner {
@@ -61,7 +62,6 @@ img {
 }
 
 .toolbar-item {
-    border: 3px solid orange;
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -77,6 +77,10 @@ img {
 
 .gap {
     gap: 10px;
+}
+
+.height-1 {
+    height: 90px;
 }
 
 .flex {
@@ -101,10 +105,15 @@ img {
     width: 7vw;
 }
 
+.toolbar-item2 {
+    padding-top: 10px;
+}
+
 #width-centrale {
     width: 30vw;
     justify-content: center;
     column-gap: 2vw;
+    margin-bottom: 10px;
 }
 
 .barra-traccia {
@@ -119,7 +128,6 @@ img {
     width: 30vw;
     justify-content: space-between;
     column-gap: 2vw;
-    margin-top: 10px;
 }
 
 .barra-traccia-2 {
@@ -159,4 +167,12 @@ img {
     position: relative;
     top: -7px;
     left: 2vw;
+}
+
+.icon {
+    font-size: 11px;
+}
+
+.icon2 {
+    font-size: 30px;
 }

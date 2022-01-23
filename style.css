@@ -33,7 +33,21 @@ a {
     flex-basis: 230px;
     flex-shrink: 0;
     background-color: black;
-    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#sidebar-p-borderbottom {
+    background-color: #5A5A5A;
+    padding: 3px;
+    margin: 23px;
+    margin-top: 0px;
+}
+
+#icon-size-small {
+    font-size: 15px;
 }
 
 .logo {
@@ -118,6 +132,10 @@ a {
 
 .nome-Playlist p:hover {
     color: white;
+}
+
+#padding-item-2 {
+    padding-top: 25px;
 }
 
 .main-content {

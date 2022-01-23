@@ -176,7 +176,10 @@ a {
     flex-direction: row;
     justify-content: space-between;
     width: 15vw;
-    min-width: 150px;
+}
+
+.min-width2 {
+    min-width: 200px;
 }
 
 .gap {
@@ -201,6 +204,7 @@ a {
     justify-content: space-between;
     width: 3vw;
     flex-wrap: wrap;
+    column-gap: 10px;
 }
 
 .margin {

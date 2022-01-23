@@ -1,0 +1,53 @@
+@media screen and (max-width: 750px) {
+    .sidebar-menu {
+        flex-basis: 75px;
+        flex-shrink: 0;
+        background-color: black;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #padding-item-2 {
+        padding: 3px;
+    }
+
+    #icon-size-small {
+        padding: 3px;
+    }
+
+    .logo {
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+
+    .logo i {
+        font-size: 33px;
+    }
+
+    .sidebar-p i {
+        font-size: 25px;
+    }
+
+    #icon-translate {
+        left: 9px;
+        top: -28px;
+        font-size: 18px;
+    }
+
+    .sidebar-p {
+        padding: 20px;
+        padding-bottom: 0px;
+        font-size: 21px;
+    }
+
+    .display {
+        visibility: visible;
+    }
+
+    .sidebar-flex-item {
+        visibility: hidden;
+    }
+}

@@ -397,5 +397,5 @@ li:hover > .underline {
 }
 
 .foto-cerchio img {
-    overflow: hidden;
+    border-radius: 200px;
 }

@@ -145,7 +145,6 @@ a {
     overflow-y: scroll;
     position: relative;
     padding-top: 120px;
-    z-index: -1;
 }
 
 .upgrade-banner {
@@ -209,6 +208,11 @@ a {
 
 .margin {
     margin: 0;
+    margin-right: 50%;
+}
+
+#margin2 {
+    margin-right: 0px;
 }
 
 #width1 {
@@ -286,4 +290,91 @@ a {
 
 .icon2 {
     font-size: 30px;
+}
+
+.button {
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.nav-2 li {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    margin: 15px;
+    color: rgb(141, 141, 141);
+}
+
+.nav-2 {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.underline {
+    width: 2vw;
+    padding: 1px;
+    margin: 0 auto;
+}
+
+li:hover > .underline {
+    background-color: lime;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.main-container h1 {
+    margin-bottom: 10px;
+}
+
+.main-flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.card h4, .card p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 19px;
+}
+
+.card p {
+    margin-top: 5px;
+    color: rgb(141, 141, 141);;
+}
+
+.card img:hover {
+    filter: opacity(50%);
+}
+
+.card i {
+    font-size: 44px;
+    position: absolute;
+    top: 77px;
+    right: 77px;
+    visibility: hidden;
+}
+
+.card:hover > div > i  {
+    visibility: visible;
 }
